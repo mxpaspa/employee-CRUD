@@ -4,7 +4,7 @@
 
 #### 3. The application is now ready to receive requests from  <code> localhost:3000 </code>.
 
-#### LISTS Endpoints
+#### Employee Endpoints
 
 - **<code>POST</code> http://localhost:3000/api/employees**
   - Required data params:
