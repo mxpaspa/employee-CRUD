@@ -5,7 +5,6 @@ const employeeRoutes = require('./routes/employee');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const expressValidator = require('express-validator');
 const port = 30000;
 const uri = 'mongodb://paspam:ibmapi12@ds115035.mlab.com:15035/ibm_api';
 
@@ -22,7 +21,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/', employeeRoutes);
+app.use('/api', employeeRoutes);
 
 // Fail over route
 app.use(function(req, res) {

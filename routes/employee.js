@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-// const employeeController = require('../controllers/employee-controller');
 const { check, validationResult } = require('express-validator');
 const Employee = require('../model');
 const axios = require('axios');
@@ -93,7 +92,6 @@ router.post(
       }
     }
 
-    //TODO: make sure there are no unintented consequences with using an IFEE
     (async function createEmployee() {
       const newEmployee = new Employee({
         firstName: firstName,
