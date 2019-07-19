@@ -9,7 +9,7 @@
 #### LISTS Endpoints
 
 - **<code>POST </code> http://localhost:3000/api/employees**
-  - required data params:
+  - Required data params:
     - firstName
     - lastName
     - hireDate: must be in the format (YYYY-MM-DD) and prior to the current date
@@ -21,4 +21,4 @@
 - **<code>PUT</code> http://localhost:3000/api/employees/:id**
   - Replaces the record corresponding to :id with the contents of the PUT body
 - **<code>DELETE</code> http://localhost:3000/api/employees/:id**
-  - deletes the record corresponding to the id parameter
+  -Deletes the record corresponding to the id parameter
