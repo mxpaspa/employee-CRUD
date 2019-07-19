@@ -17,7 +17,7 @@
 - **<code>GET</code> http://localhost:3000/api/employees/:id**
   - Returns the record corresponding to :id
 - **<code>GET</code> GET http://localhost:3000/api/employees**
-  - Return all current records
+  - Returns all current records
 - **<code>PUT</code> http://localhost:3000/api/employees/:id**
   - Replaces the record corresponding to :id with the contents of the PUT body
 - **<code>DELETE</code> http://localhost:3000/api/employees/:id**
