@@ -6,7 +6,7 @@
 
 #### LISTS Endpoints
 
-- **<code>POST </code> http://localhost:3000/api/employees**
+- **<code>POST</code> http://localhost:3000/api/employees**
   - Required data params:
     - firstName
     - lastName
