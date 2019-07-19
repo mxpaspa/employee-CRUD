@@ -1,10 +1,8 @@
-#### 1. Unzip the file.
-
-#### 2. From your terminal type: `cd Desktop/employee-CRUD/boilerplate` to enter the app's main directory
+#### 1. After unzipping the file and navigating to the project's directory:
 
 #### 2. Start the application with the command `node app`.
 
-#### 4. The application is now ready to receive requests.
+#### 3. The application is now ready to receive requests from  **<code> localhost:3000 </code>.
 
 #### LISTS Endpoints
 
