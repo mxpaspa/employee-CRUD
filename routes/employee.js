@@ -115,7 +115,6 @@ router.post(
 router.put('/employees/:id', (req, res) => {
   let id = req.params.id;
   let body = req.body;
-  //TODO: validate the body
   Employee.findOneAndUpdate({ _id: id }, body, { new: true })
     .then(doc => {
       res.send(doc);
