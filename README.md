@@ -2,7 +2,7 @@
 
 #### 2. Start the application with the command `node app`.
 
-#### 3. The application is now ready to receive requests from  **<code> localhost:3000 </code>.
+#### 3. The application is now ready to receive requests from  <code> localhost:3000 </code>.
 
 #### LISTS Endpoints
 
